@@ -1,9 +1,8 @@
 name: semicircle_indicator
 description: a semicircle indicator
 version: 1.0.0
-authors:
-  - Mike Guo
-homepage:
+author: guohaoran <mr.90later@gmail.com>
+homepage: https://github.com/horo99/semicircle_indicator
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
