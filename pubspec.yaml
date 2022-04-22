@@ -1,0 +1,22 @@
+name: semicircle_indicator
+description: a semicircle indicator
+version: 1.0.0
+authors:
+  - Mike Guo
+homepage:
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+
