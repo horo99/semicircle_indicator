@@ -2,7 +2,7 @@
 
 Using it to create a Semicircle Indicator easily.
 
-![img.png](img.png)
+![img.png](https://github.com/horo99/semicircle_indicator/blob/main/img.png)
 
 ## Features
 
