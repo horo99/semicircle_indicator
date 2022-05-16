@@ -29,49 +29,53 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            SemicircularIndicator(
-              color: Colors.orange,
-              bottomPadding: 0,
-              child: Text(
-                '75%',
-                style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.orange),
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(height: 400, width: 600, color: Colors.orange),
+              const SemicircularIndicator(
+                color: Colors.orange,
+                bottomPadding: 0,
+                child: Text(
+                  '75%',
+                  style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.orange),
+                ),
               ),
-            ),
-            SizedBox(height: 50),
-            SemicircularIndicator(
-              strokeCap: StrokeCap.square,
-              color: Colors.blueAccent,
-              bottomPadding: 0,
-              child: Text(
-                '75%',
-                style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.blueAccent),
+              const SizedBox(height: 50),
+              const SemicircularIndicator(
+                strokeCap: StrokeCap.square,
+                color: Colors.blueAccent,
+                bottomPadding: 0,
+                child: Text(
+                  '75%',
+                  style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.blueAccent),
+                ),
               ),
-            ),
-            SizedBox(height: 50),
-            SemicircularIndicator(
-              radius: 100,
-              color: Colors.yellow,
-              backgroundColor: Colors.orange,
-              strokeWidth: 13,
-              bottomPadding: 0,
-              child: Text(
-                '75%',
-                style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.orange),
+              const SizedBox(height: 50),
+              const SemicircularIndicator(
+                radius: 100,
+                color: Colors.yellow,
+                backgroundColor: Colors.orange,
+                strokeWidth: 13,
+                bottomPadding: 0,
+                child: Text(
+                  '75%',
+                  style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.orange),
+                ),
               ),
-            ),
-          ],
+              Container(height: 400, width: 600, color: Colors.orange),
+            ],
+          ),
         ),
       ),
     );
