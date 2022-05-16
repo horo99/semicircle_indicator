@@ -2,9 +2,9 @@
 
 Using it to create a Semicircle Indicator easily.
 
-![img.png](https://ibb.co/VqRWc2c)
+![img.png](https://i.ibb.co/CHg53h3/semicircle-indicators.png)
 
-![img.png](https://ibb.co/)
+![img.png](https://i.ibb.co/2ZkQgLq/semicircle-indicator-inspect.png)
 
 ## Features
 
