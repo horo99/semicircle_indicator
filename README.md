@@ -4,7 +4,7 @@ Using it to create a Semicircle Indicator easily.
 
 Three examples are below:
 
-![img.png](https://ibb.co/SnKMNC9)
+![img.png](https://i.ibb.co/swFNjYM/semicircle-indicator.png)
 
 ## Features
 
