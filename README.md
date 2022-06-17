@@ -2,9 +2,9 @@
 
 Using it to create a Semicircle Indicator easily.
 
-![img.png](https://i.ibb.co/CHg53h3/semicircle-indicators.png)
+Three examples are below:
 
-![img.png](https://i.ibb.co/2ZkQgLq/semicircle-indicator-inspect.png)
+![img.png](https://ibb.co/SnKMNC9)
 
 ## Features
 
@@ -12,5 +12,14 @@ custom size, color, stroke width, line ending style, bottom center child and so 
 
 ## Getting started
 
+Use class `SemicircularIndicator` (after installing) in your code where you need to paint a semicircular indicator.
 
-to be continue..
+There are detailed comments in code to help you use it. 
+
+## Update
+
+### 1.1.0
+
+Add property `contain`, to contain indicator.
+
+![img.png](https://ibb.co/DKqSs3v)
