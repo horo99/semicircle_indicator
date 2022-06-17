@@ -16,10 +16,3 @@ Use class `SemicircularIndicator` (after installing) in your code where you need
 
 There are detailed comments in code to help you use it. 
 
-## Update
-
-### 1.1.0
-
-Add property `contain`, to contain indicator.
-
-![img.png](https://ibb.co/DKqSs3v)
