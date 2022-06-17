@@ -33,7 +33,10 @@ class MyHomePage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(height: 400, width: 600, color: Colors.orange),
+              const SizedBox(
+                height: 100,
+                width: double.infinity,
+              ),
               const SemicircularIndicator(
                 color: Colors.orange,
                 bottomPadding: 0,
@@ -73,7 +76,52 @@ class MyHomePage extends StatelessWidget {
                       color: Colors.orange),
                 ),
               ),
-              Container(height: 400, width: 600, color: Colors.orange),
+              const SizedBox(height: 50),
+              Container(
+                height: 40,
+                width: double.infinity,
+                color: Colors.grey,
+              ),
+              const SemicircularIndicator(
+                radius: 100,
+                color: Colors.yellow,
+                backgroundColor: Colors.orange,
+                strokeWidth: 13,
+                bottomPadding: 0,
+                child: Text(
+                  '75%',
+                  style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.orange),
+                ),
+              ),
+              Container(
+                height: 40,
+                width: double.infinity,
+                color: Colors.grey,
+              ),
+              const SemicircularIndicator(
+                radius: 100,
+                color: Colors.yellow,
+                backgroundColor: Colors.orange,
+                strokeWidth: 13,
+                bottomPadding: 0,
+                contain: true,
+                child: Text(
+                  '75%',
+                  style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.orange),
+                ),
+              ),
+              Container(
+                height: 40,
+                width: double.infinity,
+                color: Colors.grey,
+              ),
+              const SizedBox(height: 400),
             ],
           ),
         ),
